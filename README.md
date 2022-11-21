@@ -3,11 +3,12 @@
 Kotlin app developed for research into facial emotion detection.
 
 Devloped by Jake Knox, 2021-2
+
 https://github.com/Jake-Knox
 
 APIs used:
-https://developers.google.com/ml-kit/vision/face-detection/android
-https://developer.spotify.com/documentation/android/
+- https://developers.google.com/ml-kit/vision/face-detection/android
+- https://developer.spotify.com/documentation/android/
 
 # Recommended setup
 - Install onto google 3a (used in devlopment and testing)
