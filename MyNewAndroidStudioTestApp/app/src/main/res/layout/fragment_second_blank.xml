@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#29A655"
+    tools:context=".SecondBlankFragment">
+
+    <TextView
+        android:id="@+id/emotionText"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="24sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/playlist_text"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+
+        android:text="Playlist"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+    <TextView
+        android:id="@+id/playlist_text_label"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+
+        android:text="Playlist:"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+
+        app:layout_constraintEnd_toStartOf="@+id/playlist_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/artist_text"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="260dp"
+
+        android:text="artist"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/artist_text_label"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="260dp"
+
+        android:text="Artist:"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+
+        app:layout_constraintEnd_toStartOf="@+id/artist_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/song_text"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="370dp"
+
+        android:text="song"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/song_text_label"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="370dp"
+
+        android:text="Song:"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+
+        app:layout_constraintEnd_toStartOf="@+id/song_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="105dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#FFC107"
+        android:elevation="2dp"
+        android:text="Back"
+
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="576dp"
+        tools:src="@tools:sample/avatars"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
